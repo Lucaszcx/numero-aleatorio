@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300&display=swap');
+
+:root {
+    --font-family: 'Noto Sans', sans-serif;
+    --cor-primaria: #EFF5F5;
+    --cor-secundaria: ;
+    --cor-fundo: #443C68;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.botao-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 2em;
+}
